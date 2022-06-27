@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+}
+
+.Dr_fixed_Bg {
+    position: relative;
+    width: 100%;
+    height: 656px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Dr_fixed_Bg .fixed_bg_wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Dr_fixed_Bg .fixed_img_box {
+    background: url('img/mcncustom_area_image_mobile.jpg') no-repeat;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.Dr_fixed_Bg .new_arrivals_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 35px;
+}
+
+.Dr_fixed_Bg .new_arrivals_title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: noto sans;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.Dr_fixed_Bg .new_arrivals_title h3 {
+    font-weight: var(--font-weight);
+}
+
+.Dr_fixed_Bg .new_arrivals_desc {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: nanumsquare;
+}
+
+.Dr_fixed_Bg .new_arrivals_desc img {
+    width: 24px;
+    vertical-align: middle;
+    opacity: .8;   
+    margin-right: 5px;
+}
+
